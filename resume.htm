@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>简历</title>
+
+        <link rel="stylesheet" type="text/css" href="css/resume.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/fancybox.css">
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/dd_roundies.js"></script>
+        <script type="text/javascript" src="js/jquery.masonry.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-1.3.1.pack.js"></script>
+        <script language="javascript">
+            $(document).ready(function(){
+
+            $('.item')
+        .mouseover(function(){
+            $(this).css('box-shadow', '0 1px 5px rgba(35,25,25,0.5)');
+
+        })
+        .mouseout(function(){
+            $(this).css('box-shadow', '0 1px 3px rgba(34,25,25,0.2)');
+            $(this).find(".bigger").css('display','none');
+        });
+
+
+        });
+        $(document).ready(function(){
+
+
+        $('.itemimg')
+        .mouseover(function(){
+            $(this).css('box-shadow', '0 1px 20px rgba(35,25,25,0.5)');
+            $(this).find(".bigger").css('display','block');
+        })
+        .mouseout(function(){
+            $(this).css('box-shadow', '0 1px 3px rgba(34,25,25,0.2)');});
+            $(this).find(".bigger").css('display','none');
+        });
+        </script>
+
+    </head>
+
+
+    <body class="simple-demo">
+        <div class="contain">
+
+                <div class="myinformation" >
+                    <div class="mynamehead">
+                        <p>个人信息</p>
+                    </div>
+                    <div class="mynamemiddle">
+                     <p>我的社交圈</p>
+                        <table class="sociallogo">
+                            <tbody>
+                                <tr>
+                                    <td class="socialtd">
+                                    <a href="http://weibo.com/zhanglei0804"><img src="img/xinlanglogo.png">
+                                    </a>
+                                    </td>
+                                    <td class="socialtd">
+                                    <a href="https://github.com/kuroba12345"><img src="img/githublogo.png">
+                                    </a>
+                                    </td>
+                                    <td class="socialtd">
+                                    <a href="mailto:kuroba12345@163.com"><img src="img/maillogo.png"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                    <div class="mydetail" >
+                        <h1>章磊</h1>
+                        <p><img src="img/location.png">杭州，成都</p>
+                        <p><img src="img/mobile.png">18782998417</p>
+                        <p><img src="img/email.png">&nbsp;kuroba12345@163.com</p>
+                        <p><img src="img/me.png">西南交通大学&nbsp;2010.9—2014.6</p>
+
+
+                    </div>
+                    </div>
+                    <div class="myinformation myintroduction">
+                    <div class="mynamehead">
+                        <p>个人简介</p>
+                    </div>
+                    <div class="introduction">
+                        <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为90后的我性格开朗,喜欢玩电脑,因此也喜欢了编程.大一下加入了校团委青年传媒网络工作室,学习了制作HTML和CSS.之后的一年我又开始学习了js，了解到jquery,d3,impress,timeline等一系列的第三方js库，还有bootstrap,960 Grid System等一系列框架.大三开始加入了学校体育部下属的风雷工作室,继续学习并完成一个接一个的项目的前端设计工作，有比如学生运动计时的数据可视化,图片上传站,酷书智选(http://www.srchsale.com/)等各个网站的所有前端设计.</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在正在学习python， 争取把脚本语言也学会.</P>
+                    </div>
+                </div>
+                <div class="myskill">
+                    <div class="myskillhead">
+                        <p>我的技能</p>
+                    </div>
+                    <div class="ability">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="abilitytd">
+                                        <div style="text-align: center;">
+                                            <div class="myjs" style="background-color:#c9c060;">
+                                                <p>40%</p>
+                                            </div>
+                                            <p class="skillname">Javascript</p>
+
+                                        </div>
+
+                                    </td>
+                                    <td class="abilitytd">
+                                        <div class="myjs" style="background-color:#6156f9">
+                                                <p>50%</p>
+                                            </div>
+                                            <p class="skillname">CSS</p>
+                                    </td>
+                                    <td class="abilitytd">
+                                        <div class="myjs" style="background-color:#e86131;">
+                                                <p>10%</p>
+                                            </div>
+                                            <p class="skillname">JSP</p>
+                                    </td>
+                                    <td class="abilitytd">
+                                        <div class="myjs" style="background-color:#a08c71;">
+                                                <p>10%</p>
+                                            </div>
+                                            <p class="skillname">C++</p>
+                                    </td>
+                                    <td class="abilitytd">
+                                        <div class="myjs" style="background-color:#824b51;">
+                                                <p>5%</p>
+                                            </div>
+                                            <p class="skillname">Python</p>
+                                    </td>
+                                    <td class="abilitytd">
+                                        <div class="myjs" style="background-color:#6c804b;">
+                                                <p>25%</p>
+                                            </div>
+                                            <p class="skillname">Html5</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="myproject">
+                     <div class="myprojecthead">
+                        <p>我的大学</p>
+                    </div>
+                    <div id="container">
+                        <!-- TimeLine导航 -->
+                        <div class="timeline_container">
+                            <div class="timeline">
+
+                                <div class="plus"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                           <div class="inner">
+                                <p>基于HTML5的画图工具</p>
+                            </div>
+                             <div class="itemimg">
+                                <a class="flybox" href="img/project6.png" title="基于HTML5的画图工具">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project66.jpg">
+                                </a>
+                            </div>
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体可参考<a href="picture/picture.htm">这里</a>基于HTML5的canvas和jquery做的画图工具。</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="item">
+
+                            <div class="inner">
+                                <p>Eatwell页面</p>
+                            </div>
+                             <div class="itemimg">
+                                <a class="flybox" href="img/project7.png" title="Eatwell页面">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project77.jpg">
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体可参考<a href="eatwell/eatwell.htm">这里</a>这是我在v2ex第一次找项目做，做了一个展示Eatwell软件的页面</p>
+                                <br>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="inner">
+                                <p>运用类库制作工作室时间轴</p>
+                            </div>
+                             <div class="itemimg">
+                                <a class="flybox" href="img/project2.jpg" title="工作室时间轴">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project22.jpg">
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体可参考<a href="http://sports.swjtu.edu.cn/workspace/timeline">这里</a> ，其中每一栏都记录着工作室的点点滴滴，借用了timeline.js，十分感谢该库的作者</p>
+                                <br>
+                            </div>
+
+
+                        </div>
+                         <div class="item">
+                           <div class="inner">
+                                <p>酷书智选的建设</p>
+                            </div>
+                             <div class="itemimg">
+                                <a class="flybox" href="img/project3.jpg" title="酷书智选">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project33.jpg">
+
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.srchsale.com/">酷书智选</a>是一个抓取图书在各个电商网站的价格，并给出过去一段时间的价格波动的网站，使用者可以通过搜索书名来查询图书的价格，在这个项目中，我负责了所有前端开发工作</p>
+                                <br>
+                            </div>
+
+
+                        </div>
+                         <div class="item">
+
+                           <div class="inner">
+                                <p>学校体育场馆系统改版</p>
+                            </div>
+                            <div class="itemimg">
+                                 <a class="flybox" href="img/project4.jpg" title="学校体育场馆系统改版">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project44.jpg">
+
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;体育部场馆系统改版的首页</p>
+                                <br>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="item">
+
+                             <div class="inner">
+                                <p>运动刷卡计时数据可视化</p>
+                            </div>
+                            <div class="itemimg">
+                                <a class="flybox" href="img/project1.jpg" title="学生运动刷卡计时数据可视化">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project11.jpg">
+
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用了d3.js编写了这个页面，数据来源于每个学生平时每周的刷卡计时，将其用图表或别的方式展示出来，非常有意思。创意可能不够，以后需要改进，因为IE8及以下版本不支持SVG，所以只能用webkit内核的浏览器，火狐和opera浏览器也都兼容。点<a href="http://202.115.73.17:8000/match/zhanglei/20124650/">这里</a></p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <p>加入了风雷工作室</p>
+                            </div>
+                             <div class="itemimg">
+                                 <a class="flybox" href="img/project5.jpg" title="加入风雷工作室">
+                                    <img class="bigger" src="img/bigger.png">
+                                    <img src="img/project55.jpg">
+                                </a>
+                            </div>
+
+                            <div class="mycontent">
+                                <br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西南交通大学体育部风雷工作室于2011年10月成立，是体育部支持下的学生创新组织。工作室自成立以来，在体育部领导老师的关心与支持下，工作室现已自主开发完成运动计时系统，大学生体质测试系统，西南交大体育场馆管理系统，西南交大高水平运动员管理系统，体育部国资管理系统等，初步实现了学校体育工作的信息化管理。</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer"></div>
+
+        </div>
+
+
+
+       <script type="text/javascript">
+        DD_roundies.addRule('.myinformation', '7px');
+        DD_roundies.addRule('.mynamehead', '7px');
+        DD_roundies.addRule('.myskill', '7px');
+        DD_roundies.addRule('.myskillhead', '7px');
+        DD_roundies.addRule('.myproject', '7px');
+        DD_roundies.addRule('.myprojecthead', '7px');
+        DD_roundies.addRule('.myjs', '10000px',true);
+    </script>
+    <script type="text/javascript" >
+        $(function(){
+          // masonry plugin call
+          $('#container').masonry({itemSelector : '.item',});
+          var $container = $('#container');
+            $container.imagesLoaded(function(){
+            $container.masonry({
+            itemSelector : '.item'
+            });
+            });
+        });
+    </script>
+    </body>
+</html>

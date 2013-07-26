@@ -1,0 +1,324 @@
+ body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  font-family: Microsoft JhengHei;
+  text-align: center;
+}
+
+.caption-header{
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 100px;
+  z-index: 100;
+}
+
+.caption-header p{
+  line-height: 25px; 
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+.carousel .item {
+  height: 500px;
+}
+.backgroundimg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#signin{ 
+  overflow:auto;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding-right: 80px;
+  margin-top: 0px;
+
+}
+
+#sinin form{
+  line-height: 20px;
+}
+
+#signin label{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: grey;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#signin input{
+  vertical-align:middle;
+  margin-top: 3px;
+  height: 25px;
+}
+
+.freedom{
+  margin-right: 10px;
+  -ms-filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=120,strength=25);/*ie*/
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=120,strength=25);/*ie*/
+  -moz-box-shadow: 2px 2px 20px #000000;/*firefox*/
+  -webkit-box-shadow: 2px 2px 20px #000000;/*safari或chrome*/
+  box-shadow:2px 2px 20px #000000;/*opera或ie9*/
+}
+
+.carousel-caption{
+  filter:alpha(opacity=85);
+}
+
+/* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -30px;
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 50px;
+      letter-spacing: -1px;
+
+    }
+
+    .muted{
+      padding-left: 40px;
+      font-size: 30px;
+    }
+
+    .facelogo {
+       margin-right: 60px;
+     
+    }
+
+   .phoneimg{
+      z-index: 999;
+      position: absolute;
+      margin-top: -300px;
+      margin-left: 1000px;
+      background: url(../img/phone1.png);
+      width: 200px;
+      height: 400px;
+   }
+
+   .phoneimg img{
+      
+   }
+
+
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 18px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .featurette .leadp{
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+
+.contain{
+  width: 1024px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register{
+
+  margin-left: 150px;
+}
+
+.xieti{
+  font-style: italic;
+  margin-left: 75px;
+}
+
+
+
+#cycle-wrapper {
+  position: relative;
+  width:300px;
+  height: 250px;
+  margin: 0 auto 90px;
+  text-align: center;
+}
+
+#sliderholder-cycle {
+
+  width:310px;
+  height: 260px;
+  overflow: hidden;
+  background:transparent;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.7);
+}
+
+.slidernav {
+  padding: 0;
+  margin: 18px 0 0 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slidernav a {
+  cursor: pointer;
+  background-color: #191919;
+  overflow: hidden;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  text-indent: -99999px;
+  display: inline-block;
+}
+
+.slidernav a:hover, .slidernav .activeSlide {
+  background-color: #101010;
+}
+
+.sliderprev, .slidernext {
+  display:block;
+  width:35px;
+  height:35px;
+  background:url(../img/slider-arrows.jpg) no-repeat;
+  text-indent:-9999px;
+  border:0;
+  cursor: pointer;
+  position: absolute;
+  -webkit-box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.7);
+}
+
+.slidernext {
+  background-position: right top;
+  right: -60px;
+  top: 46%;
+}
+
+.slidernext:hover {
+  background-position: right bottom;
+}
+
+.sliderprev {
+  background-position: left top;
+  left: -60px;
+  top: 46%;
+}
+
+.sliderprev:hover {
+  background-position: left bottom;
+}
+
+/* PIECEMAKER */
+
+#piecemaker-container {
+  display:block;
+  height:460px;
+  overflow:hidden;
+  margin: -10px auto 40px;
+  width: 960px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  6.  COLUMNS
+/*-----------------------------------------------------------------------------------*/
+
+

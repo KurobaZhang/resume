@@ -1,0 +1,432 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>面包</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/personal.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+      if ($('#sliderholder-cycle').length) {
+      // timeouts per slide (in seconds)
+      var timeouts = [150,390,25];
+      function calculateTimeout(currElement, nextElement, opts, isForward) {
+          var index = opts.currSlide;
+          return timeouts[index] * 1000;
+      }
+      jQuery('#sliderholder-cycle').cycle({
+        fx: 'fade',
+        pager: '.slidernav',
+        prev:    '.sliderprev',
+            next:    '.slidernext',
+        speed: 1000,
+        timeoutFn: calculateTimeout,
+        pagerEvent: 'click',
+          pauseOnPagerHover: true,
+          cleartype: 1
+});
+      jQuery('#sliderholder-cycle').css("display", "block");
+      jQuery('.slidernav').css("display", "block");
+
+      }
+});
+</script>
+
+
+</head>
+<body>
+
+
+ <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="backgroundimg"src="img/p1.jpg" alt="">
+        </div>
+
+        <div class="container caption-header">
+            <div class="carousel-caption" style="text-align:left;">
+              <h1>厨艺无处展示？</h1><img style="float:right;"src="img/logo.png">
+              <p class="lead"><strong style="font-size:30px; font-faminly:font-family: Microsoft JhengHei;">Eatwell</strong>是一款全新的为喜爱烹饪的人群及寻找私家美食的人群搭建的手机应用软件。</p>
+					       <p style="font-size:18px;"><img src="img/dot1.png" style="margin-top:-5px;">&nbsp;施展你的烹饪热情</p>
+                 <p style="font-size:18px;"><img src="img/dot1.png" style="margin-top:-5px;">&nbsp;帮助同社区居民更好更健康的生活</p>
+                 <p style="font-size:18px;"><img src="img/dot1.png" style="margin-top:-5px;">&nbsp;轻松赚取外快</p>
+					       <p class="lead">本应用程序即将开放。在此为想成为私家大厨的你提供早期申请。</p>
+				      <br>
+				      <div class="signinbut">
+                <a  class="btn btn-large btn-primary fancybox" href="#signin" title="免费注册">
+                  <strong>点我注册</strong><br> <small style="font-size:12px;">（免费）</small></a>
+              </div>
+
+            </div><div class="phoneimg"></div>
+          </div>
+
+      </div>
+    </div><!-- /.carousel -->
+    <br><br><br><br><br><br>
+    <div class="contain">
+        <div class="featurette">
+        <div class="featurette-image pull-right facelogo">
+          <div id="cycle-wrapper">
+            <div id="sliderholder-cycle">
+              <img src="img/p2.jpg"  width="300px" height="250px" />
+              <img src="img/p3.jpg" class="img-polaroid" width="300px" height="250px" />
+              <img src="img/p4.jpg" class="img-polaroid" width="300px" height="250px" />
+              <img src="img/p5.jpg" class="img-polaroid" width="300px" height="250px" />
+              <img src="img/p6.jpg" class="img-polaroid" width="300px" height="250px" />
+
+            </div>
+          <ul class="slidernav">
+          </ul>
+          <div class="sliderdir">
+            <a href="#">
+              <span class="sliderprev">Prev</span>
+            </a>
+            <a href="#">
+              <span class="slidernext">Next</span>
+            </a>
+          </div>
+        </div>
+        </div>
+
+        <div style="text-align:left; margin-top:-125px;">
+        <h2 class="featurette-heading">什么样的人适合提交申请呢 <br>
+          <span class="muted">喜欢做饭并且分享的人都欢迎加入我们！</span></h2>
+        <p class="lead">加入我们行列的好理由实在是太多啦，来开始震憾那些居住在你</p>
+        <p class="lead">身边的朋友们吧！</p>
+        </div>
+      </div>
+
+       <hr class="featurette-divider">
+
+      <div class="featurette" style="padding-top:-50px;">
+
+        <img class="featurette-image pull-right" src="img/picture3.jpg" >
+        <div style="text-align:left; ">
+          <h2 class="featurette-heading">如何参与</h2>
+          <br><br><br><br>
+          <p class="lead"><img src="img/n1.png" style="margin-top:-5px;">&nbsp;发一份申请表给我们，告知您对烹饪的喜爱</p>
+          <p class="lead"><img src="img/n2.png" style="margin-top:-5px;">&nbsp;在被通过后，下载我们的手机应用软件</p>
+          <p class="lead"><img src="img/n3.png" style="margin-top:-5px;">&nbsp;创建你的个人简介，告诉人们今晚你将做的菜肴</p>
+          <p class="lead"><img src="img/n4.png" style="margin-top:-5px;">&nbsp;同小区的居民看到了你将要做的菜，进行下单</p>
+          <p class="lead"><img src="img/n5.png" style="margin-top:-5px;">&nbsp;检查下单买家的个人简介，并确认是否接受他的订单</p>
+          <p class="lead"><img src="img/n6.png" style="margin-top:-5px;">&nbsp; 双方协商菜肴如何接收：递送上门，见面取货，自提，还是直接来家里吃</p>
+          <p class="lead"><img src="img/n7.png" style="margin-top:-5px;">&nbsp;交易成功！</p>
+          <p class="lead"><img src="img/n8.png" style="margin-top:-5px;">&nbsp;双方进行评分环节,共同在平台中成长.</p>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right img-polaroid freedom" src="img/freedom.jpg" style="margin-top:0px;">
+        <div style="text-align:left;">
+          <h2 class="featurette-heading">全局仍然由你自己掌握
+          <span class="muted">照你喜欢的方式做</span></h2>
+          <p class="lead">我们的应用软件可让你完全按照自己想要的方式，轻松管理好自己的烹饪时间表：</p>
+          <p class="lead"><img src="img/dot.png" style="margin-top:-5px;">&nbsp;只在你想做饭的日子里展示</p>
+          <p class="lead"><img src="img/dot.png" style="margin-top:-5px;">&nbsp;自己决定谁可以买你的菜肴</p>
+          <p class="lead"><img src="img/dot.png" style="margin-top:-5px;">&nbsp;自己决定你的菜肴如何被接收，送菜上门，还是要求来你家进餐</p>
+          <p class="lead"><img src="img/dot.png" style="margin-top:-5px;">&nbsp;一切都由你说了算。</p>
+        </div>
+      </div>
+
+       <hr class="featurette-divider">
+      <div class="featurette">
+            <img class="featurette-image pull-right" src="img/systemlogo.png" style="margin-top:0px;">
+        <div style="text-align:left;">
+        <h2 class="featurette-heading">我们即将开放。。。</h2>
+        <p class="lead">我们将在2013年7月开始，逐步在挑选好的区域开放。 </p>
+        <p class="lead">现接受各位身在北京和上海的大厨们的早期申请。 </p>
+        <p class="lead">来做你所在居民楼小区的首批注册私家大厨吧。</p>
+        <p class="lead">当在你的小区开放时，我们会立即通知你。</p>
+          <div class="signinbut">
+            <a  class="btn btn-large btn-primary fancybox" href="#signin" title="免费注册">
+              <strong>点我注册</strong><br> <small style="font-size:12px;">（免费）</small>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <br>
+
+    <div style="display:none;">
+	<div id="signin">
+		<form class="form-horizontal registerform">
+        <h1 class="register">大厨申请表</h1>
+        <p class="xieti">请尽量提供您的详细信息，以帮助我们更有效的查看您的申请</p>
+  			<div class="control-group">
+    			<label class="control-label" for="inputlastname">名</label>
+   			 	<div class="controls">
+      				<input type="text" id="inputname" placeholder="名">
+    			</div>
+  			</div>
+
+  			<div class="control-group">
+    			<label class="control-label" for="inputname">姓</label>
+   			 	<div class="controls">
+      				<input type="text" id="inputsecondname" placeholder="姓">
+    			</div>
+  			</div>
+  			<div class="control-group">
+    			<label class="control-label" for="inputEmail">邮箱</label>
+   			 	<div class="controls">
+      				<input type="text" id="inputEmail" placeholder="xiaowei@163.com">
+    			</div>
+  			</div>
+
+  			<div class="control-group" >
+  				<label class="control-label" for="inputSex">性别</label>
+    			<div class="controls">
+     				<label class="radio inline">
+ 	 					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"  style="margin-top:-2px">男
+     				</label>
+     				<label class="radio inline" >
+      					<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" style="margin-top:-2px">女
+     				</label>
+     			</div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="age">年龄段</label>
+          <div class="controls" >
+            <select id="age">
+              <option>---</option>
+              <option><18岁</option>
+              <option>18-24岁</option>
+              <option>25-34岁</option>
+              <option>35-44岁</option>
+              <option>45-54岁</option>
+              <option>55-65岁</option>
+              <option>>65岁</option>
+            </select>
+          </div>
+  			</div>
+
+        <div class="control-group">
+          <label class="control-label" for="education">教育水平</label>
+          <div class="controls">
+            <select id="education">
+              <option>---</option>
+              <option>小学初中</option>
+              <option>高中</option>
+              <option>中专技校</option>
+              <option>本科</option>
+              <option>研究所</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="control-group">
+          <label class="control-label" for="overseaexeperice">海外经验 (可多选)</label>
+          <div class="controls">
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox1" name="oversea" value="option1" style="margin-top:-3px;">没有
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox2" name="oversea" value="option2" style="margin-top:-3px;">旅行
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox3" name="oversea" value="option3" style="margin-top:-3px;">留学
+            </label>
+            <br>
+            <label class="checkbox inline" >
+              <input type="checkbox" id="inlineCheckbox4" name="oversea" value="option4" style="margin-top:-3px; ">工作
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox5" name="oversea" value="option5" style="margin-top:-3px;">海外长大
+            </label>
+          </div>
+        </div>
+
+
+
+
+        <div class="control-group">
+          <label class="control-label" for="marrage">婚姻情况</label>
+          <div class="controls">
+            <select id="marrage">
+              <option>---</option>
+              <option>未婚</option>
+              <option>已婚</option>
+              <option>已婚（有孩子）</option>
+            </select>
+          </div>
+        </div>
+
+  			<div class="control-group " id="mycity">
+          <label class="control-label" for="inputcity">城市</label>
+          <div class="controls">
+            <label class="radio inline">
+                <input type="radio" name="inputcity" id="optionsRadios3" value="beijing" style="margin-top:-2px">北京
+            </label>
+            <label class="radio inline" >
+                <input type="radio" name="inputcity" id="optionsRadios4" value="shanghai" style="margin-top:-2px">上海
+            </label>
+            <label class="radio inline">
+                <input type="radio" name="inputcity" id="optionsRadios5" value="other" style="margin-top:-2px">其他
+            </label>
+          </div>
+        </div>
+
+
+
+        <div class="control-group myurbanarea">
+          <label class="control-label" for="urbanarea">所在城区</label>
+          <div class="controls">
+            <select class="urbanarea">
+               <option>---</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="inputcommunity">小区</label>
+          <div class="controls">
+              <input type="text" id="inputcommunity" placeholder="如水岸花园">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="Accommodationtypes">住所类型</label>
+          <div class="controls">
+            <select id="Accommodationtypes">
+              <option>---</option>
+              <option>胡同</option>
+              <option>四合院</option>
+              <option>板房</option>
+              <option>公寓</option>
+              <option>小区</option>
+              <option>别墅</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="livewith">同住的人(可多选)</label>
+          <div class="controls">
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox6" class="checkbox2" value="option1" style="margin-top:-3px;">独自
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox7" class="checkbox2" value="option2" style="margin-top:-3px;">室友
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox8" class="checkbox2" value="option3" style="margin-top:-3px;">爱人
+            </label>
+            <br>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox9" class="checkbox2" value="option4" style="margin-top:-3px;">孩子
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox10" class="checkbox2" value="option5" style="margin-top:-3px;">父母
+            </label>
+             <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox11" class="checkbox2" value="option6" style="margin-top:-3px;">其他亲戚
+            </label>
+            <br>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox12" class="checkbox2" value="option7" style="margin-top:-3px;">全职阿姨
+            </label>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="workingcondition">工作状态</label>
+          <div class="controls">
+            <select id="workingcondition">
+              <option>---</option>
+              <option>全职</option>
+              <option>兼职</option>
+              <option>自由职</option>
+              <option>学生</option>
+              <option>主妇</option>
+              <option>在找</option>
+               <option>暂时不想工作</option>
+              <option>退休</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group mysystem">
+          <label class="control-label" for="system">手机系统</label>
+          <div class="controls">
+            <select class="system">
+              <option>---</option>
+              <option>IOS</option>
+              <option>Android</option>
+              <option>Windows Mobile</option>
+              <option>其他</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="skill">烹饪技术</label>
+          <div class="controls">
+            <select id="cookskill">
+              <option>---</option>
+              <option>新手（但可改进）</option>
+              <option>中级业余爱好者</option>
+              <option>高级业余爱好者</option>
+              <option>专业厨师（职业）</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="signinreason">我申请的主要动机</label>
+
+        </div>
+
+        <div class="control-group mainreason">
+          <label class="control-label" for="mainreason">主要原因</label>
+          <div class="controls">
+            <select id="firstreason">
+              <option>---</option>
+              <option>联系烹饪能力</option>
+              <option>赚取外快</option>
+              <option>认识新朋友</option>
+              <option>填补空闲时间</option>
+              <option>其他</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group minorreason">
+          <label class="control-label" for="minorreason">次要原因</label>
+          <div class="controls">
+            <select id="secondreason">
+              <option>---</option>
+              <option>联系烹饪能力</option>
+              <option>赚取外快</option>
+              <option>认识新朋友</option>
+              <option>填补空闲时间</option>
+              <option>其他</option>
+            </select>
+          </div>
+        </div>
+
+  			<div class="control-group">
+    			<div class="controls">
+      				<button type="submit" id="submitform" class="btn btn-large"><strong>提交表格</strong></button>
+      				<p class="errortext" for="error" id="errorlog"></p><label id="errorrep" style="color:red; display:none;">您有未填写的内容</label>
+    			</div>
+  			</div>
+
+		</form>
+
+	</div>
+	</div>
+
+</body>
+</html>

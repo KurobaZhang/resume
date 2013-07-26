@@ -1,0 +1,111 @@
+body{
+	background-color: #ccceee;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+}
+
+#c1{
+	float: left;
+	background-color: white;
+}
+
+.color{
+    background: url("../images/select.png") repeat scroll center center transparent;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #444444;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+ }
+
+.pure-button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.adjust{
+    width: 500px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+/* colorpicker styles */
+.colorpicker {
+    background-color: #222222;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px #444444;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 40px;
+    position: absolute;
+    width: 600px;
+}
+#picker {
+    cursor: crosshair;
+    float: left;
+    margin: 10px;
+    border: 0;
+}
+.controls {
+
+    float: right;
+    margin: 10px;
+}
+.controls > div {
+
+    border: 1px solid #2F2F2F;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+.controls label {
+    float: left;
+}
+.controls > div input {
+    background-color: #121212;
+    border: 1px solid #2F2F2F;
+    color: #DDDDDD;
+    float: right;
+    font-size: 10px;
+    height: 14px;
+    margin-left: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75px;
+}
+.preview {
+    float: left;
+    margin-left: 10px;
+    background: url("../images/select.png") repeat scroll center center transparent;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #444444;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-color :black;
+}
+#closex{
+    color: white;
+}

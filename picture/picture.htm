@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0042)http://www.html5cn.org/article-3774-1.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>画图</title>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+<link rel="stylesheet" type="text/css" href="css/canvas.css">
+<script type="text/javascript" src="coffee/canvas.js"></script>
+</head>
+<body>
+	<canvas id="c1" width="600" height="500">
+	</canvas>
+	<div class="adjust">
+	<form class="pure-form pure-form-aligned">
+        <fieldset>
+    	<legend>样式调整</legend>
+        <div class="pure-control-group">
+            <label for="width">画布长</label>
+    		<input type="text" class="pure-input-rounded" id="widthinput" placeholder="px">
+    		<button type="button" id="widthadjust" class="pure-button pure-button-secondary">调整</button>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="height">画布宽</label>
+    		<input type="text" class="pure-input-rounded" id="heightinput" placeholder="px">
+    		<button type="button" id="heightadjust" class="pure-button pure-button-secondary">调整</button>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="color" style="float:left;">画笔颜色</label>
+           <!-- preview element -->
+            <div class="preview"></div>
+            <!-- colorpicker element -->
+            <div class="colorpicker" style="display:none">
+            <div class="controls">
+                <canvas id="picker" var="1" width="300" height="300"></canvas>
+
+                    <div><label>R</label> <input type="text" id="rVal"/></div>
+                    <div><label>G</label> <input type="text" id="gVal"/></div>
+                    <div><label>B</label> <input type="text" id="bVal"/></div>
+                    <div><label>RGB</label> <input type="text" id="rgbVal"/></div>
+                    <div><label>HEX</label> <input type="text" id="hexVal"/></div>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="pure-control-group" style="margin-top:10px;">
+            <label for="thickness">画笔粗细</label>
+            <select id="thickness">
+        		<option value="2">画笔粗细</option>
+        		<option value="2">2px</option>
+            	<option value="4">4px</option>
+            	<option value="5">6px</option>
+            	<option value="8">8px</option>
+            	<option value="10">10px</option>
+        	</select>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="eraser">橡皮擦大小</label>
+            <select id="eraser">
+                <option value="2">橡皮擦大小</option>
+                <option value="2">2px</option>
+                <option value="5">5px</option>
+                <option value="10">10px</option>
+                <option value="15">15px</option>
+                <option value="20">20px</option>
+                <option value="15">25px</option>
+                <option value="30">30px</option>
+            </select>
+
+        </div>
+        <div class="pure-controls">
+            <button type="button" id="eraseradjust" class="pure-button pure-button-secondary">橡皮擦</button>
+            <button type="button" id="pen" class="pure-button pure-button-secondary">画笔</button>
+            <button class="pure-button pure-button-success" id="clear"><strong>清除屏幕</strong></button>
+        </div>
+        </fieldset>
+    </form>
+	</div>
+</body>
+</html>
